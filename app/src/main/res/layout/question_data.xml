@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/question_type_adapter"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="Question Type"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/question_adapter"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

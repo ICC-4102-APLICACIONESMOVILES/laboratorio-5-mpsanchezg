@@ -50,6 +50,9 @@ public interface DaoAccess {
     @Query("SELECT * FROM FormQuestions")
     List<FormQuestions> getAllQuestions();
 
+    @Query("SELECT * FROM FormQuestions q WHERE q.FormId = :FormId")
+    List<FormQuestions> fetchAllQuestionsOfAForm(int FormId);
+
     @Update
     void updateForm (FormQuestions questions);
 
